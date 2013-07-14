@@ -25,10 +25,6 @@
 		46B3D5B01792344300F87266 /* NSString+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5AF1792344300F87266 /* NSString+QueryString.m */; };
 		46B3D5B717923BF800F87266 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 46B3D5B417923BF800F87266 /* README */; };
 		46B3D5B817923BF800F87266 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5B617923BF800F87266 /* TDOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		46B3D5CD17923C0E00F87266 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5BB17923C0E00F87266 /* AFHTTPClient.m */; };
-		46B3D5CE17923C0E00F87266 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5BD17923C0E00F87266 /* AFHTTPRequestOperation.m */; };
-		46B3D5D117923C0E00F87266 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5C317923C0E00F87266 /* AFNetworkActivityIndicatorManager.m */; };
-		46B3D5D317923C0E00F87266 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5C817923C0E00F87266 /* AFURLConnectionOperation.m */; };
 		46B3D5DA17923C8C00F87266 /* KAOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5D817923C8C00F87266 /* KAOLoginViewController.m */; };
 		46B3D5DB17923C8C00F87266 /* KAOLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B3D5D917923C8C00F87266 /* KAOLoginViewController.xib */; };
 		46B3D5E117923ED100F87266 /* TDOAuth+KAOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5E017923ED100F87266 /* TDOAuth+KAOAuth.m */; };
@@ -71,15 +67,6 @@
 		46B3D5B417923BF800F87266 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		46B3D5B517923BF800F87266 /* TDOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOAuth.h; sourceTree = "<group>"; };
 		46B3D5B617923BF800F87266 /* TDOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
-		46B3D5BA17923C0E00F87266 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
-		46B3D5BB17923C0E00F87266 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
-		46B3D5BC17923C0E00F87266 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		46B3D5BD17923C0E00F87266 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		46B3D5C217923C0E00F87266 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
-		46B3D5C317923C0E00F87266 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
-		46B3D5C417923C0E00F87266 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		46B3D5C717923C0E00F87266 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		46B3D5C817923C0E00F87266 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
 		46B3D5D717923C8C00F87266 /* KAOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAOLoginViewController.h; sourceTree = "<group>"; };
 		46B3D5D817923C8C00F87266 /* KAOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAOLoginViewController.m; sourceTree = "<group>"; };
 		46B3D5D917923C8C00F87266 /* KAOLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KAOLoginViewController.xib; sourceTree = "<group>"; };
@@ -190,7 +177,6 @@
 		46B3D5A71791C69500F87266 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				46B3D5B917923C0E00F87266 /* AFNetworking */,
 				46B3D5B317923BF800F87266 /* TDAuth */,
 				46B3D5AB179228CB00F87266 /* NSURL+QueryString.h */,
 				46B3D5AC179228CB00F87266 /* NSURL+QueryString.m */,
@@ -208,22 +194,6 @@
 				46B3D5B617923BF800F87266 /* TDOAuth.m */,
 			);
 			path = TDAuth;
-			sourceTree = "<group>";
-		};
-		46B3D5B917923C0E00F87266 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				46B3D5BA17923C0E00F87266 /* AFHTTPClient.h */,
-				46B3D5BB17923C0E00F87266 /* AFHTTPClient.m */,
-				46B3D5BC17923C0E00F87266 /* AFHTTPRequestOperation.h */,
-				46B3D5BD17923C0E00F87266 /* AFHTTPRequestOperation.m */,
-				46B3D5C217923C0E00F87266 /* AFNetworkActivityIndicatorManager.h */,
-				46B3D5C317923C0E00F87266 /* AFNetworkActivityIndicatorManager.m */,
-				46B3D5C417923C0E00F87266 /* AFNetworking.h */,
-				46B3D5C717923C0E00F87266 /* AFURLConnectionOperation.h */,
-				46B3D5C817923C0E00F87266 /* AFURLConnectionOperation.m */,
-			);
-			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		46B3D5D617923C5E00F87266 /* KAOAuth */ = {
@@ -339,17 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B3D5D317923C0E00F87266 /* AFURLConnectionOperation.m in Sources */,
 				46B3D5891791C68A00F87266 /* SSViewController.m in Sources */,
 				46B3D5B817923BF800F87266 /* TDOAuth.m in Sources */,
 				46B3D5AD179228CB00F87266 /* NSURL+QueryString.m in Sources */,
 				46B3D5DA17923C8C00F87266 /* KAOLoginViewController.m in Sources */,
 				46B3D5831791C68A00F87266 /* SSAppDelegate.m in Sources */,
-				46B3D5D117923C0E00F87266 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				46B3D5E117923ED100F87266 /* TDOAuth+KAOAuth.m in Sources */,
-				46B3D5CE17923C0E00F87266 /* AFHTTPRequestOperation.m in Sources */,
 				46B3D57F1791C68A00F87266 /* main.m in Sources */,
-				46B3D5CD17923C0E00F87266 /* AFHTTPClient.m in Sources */,
 				46B3D5B01792344300F87266 /* NSString+QueryString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
