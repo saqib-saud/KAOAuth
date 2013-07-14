@@ -1,0 +1,6 @@
+[submodule "external/AFNetworking"]
+	path = external/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "external/TDAuth"]
+	path = external/TDAuth
+	url = https://github.com/tweetdeck/TDOAuth.git

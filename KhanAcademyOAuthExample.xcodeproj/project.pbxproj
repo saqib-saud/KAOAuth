@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46B3D5731791C68900F87266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B3D5721791C68900F87266 /* Foundation.framework */; };
+		46B3D5751791C68900F87266 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B3D5741791C68900F87266 /* CoreGraphics.framework */; };
+		46B3D5771791C68900F87266 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B3D5761791C68900F87266 /* UIKit.framework */; };
+		46B3D57D1791C68A00F87266 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46B3D57B1791C68900F87266 /* InfoPlist.strings */; };
+		46B3D57F1791C68A00F87266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D57E1791C68A00F87266 /* main.m */; };
+		46B3D5831791C68A00F87266 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5821791C68A00F87266 /* SSAppDelegate.m */; };
+		46B3D5861791C68A00F87266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B3D5841791C68A00F87266 /* Main.storyboard */; };
+		46B3D5891791C68A00F87266 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5881791C68A00F87266 /* SSViewController.m */; };
+		46B3D58B1791C68A00F87266 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B3D58A1791C68A00F87266 /* Images.xcassets */; };
+		46B3D5921791C68A00F87266 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B3D5911791C68A00F87266 /* XCTest.framework */; };
+		46B3D5931791C68A00F87266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B3D5721791C68900F87266 /* Foundation.framework */; };
+		46B3D5941791C68A00F87266 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B3D5761791C68900F87266 /* UIKit.framework */; };
+		46B3D59C1791C68A00F87266 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46B3D59A1791C68A00F87266 /* InfoPlist.strings */; };
+		46B3D59E1791C68A00F87266 /* KhanAcademyOAuthExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D59D1791C68A00F87266 /* KhanAcademyOAuthExampleTests.m */; };
+		46B3D5AD179228CB00F87266 /* NSURL+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5AC179228CB00F87266 /* NSURL+QueryString.m */; };
+		46B3D5B01792344300F87266 /* NSString+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5AF1792344300F87266 /* NSString+QueryString.m */; };
+		46B3D5B717923BF800F87266 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 46B3D5B417923BF800F87266 /* README */; };
+		46B3D5B817923BF800F87266 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5B617923BF800F87266 /* TDOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		46B3D5CD17923C0E00F87266 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5BB17923C0E00F87266 /* AFHTTPClient.m */; };
+		46B3D5CE17923C0E00F87266 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5BD17923C0E00F87266 /* AFHTTPRequestOperation.m */; };
+		46B3D5D117923C0E00F87266 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5C317923C0E00F87266 /* AFNetworkActivityIndicatorManager.m */; };
+		46B3D5D317923C0E00F87266 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5C817923C0E00F87266 /* AFURLConnectionOperation.m */; };
+		46B3D5DA17923C8C00F87266 /* KAOLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5D817923C8C00F87266 /* KAOLoginViewController.m */; };
+		46B3D5DB17923C8C00F87266 /* KAOLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B3D5D917923C8C00F87266 /* KAOLoginViewController.xib */; };
+		46B3D5E117923ED100F87266 /* TDOAuth+KAOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D5E017923ED100F87266 /* TDOAuth+KAOAuth.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46B3D5951791C68A00F87266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46B3D5671791C68900F87266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B3D56E1791C68900F87266;
+			remoteInfo = KhanAcademyOAuthExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46B3D56F1791C68900F87266 /* KhanAcademyOAuthExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhanAcademyOAuthExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B3D5721791C68900F87266 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46B3D5741791C68900F87266 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		46B3D5761791C68900F87266 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		46B3D57A1791C68900F87266 /* KhanAcademyOAuthExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KhanAcademyOAuthExample-Info.plist"; sourceTree = "<group>"; };
+		46B3D57C1791C68900F87266 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46B3D57E1791C68A00F87266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46B3D5801791C68A00F87266 /* KhanAcademyOAuthExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KhanAcademyOAuthExample-Prefix.pch"; sourceTree = "<group>"; };
+		46B3D5811791C68A00F87266 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		46B3D5821791C68A00F87266 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		46B3D5851791C68A00F87266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46B3D5871791C68A00F87266 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		46B3D5881791C68A00F87266 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		46B3D58A1791C68A00F87266 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46B3D5901791C68A00F87266 /* KhanAcademyOAuthExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KhanAcademyOAuthExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B3D5911791C68A00F87266 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		46B3D5991791C68A00F87266 /* KhanAcademyOAuthExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KhanAcademyOAuthExampleTests-Info.plist"; sourceTree = "<group>"; };
+		46B3D59B1791C68A00F87266 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46B3D59D1791C68A00F87266 /* KhanAcademyOAuthExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KhanAcademyOAuthExampleTests.m; sourceTree = "<group>"; };
+		46B3D5AB179228CB00F87266 /* NSURL+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryString.h"; sourceTree = "<group>"; };
+		46B3D5AC179228CB00F87266 /* NSURL+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryString.m"; sourceTree = "<group>"; };
+		46B3D5AE1792344300F87266 /* NSString+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QueryString.h"; sourceTree = "<group>"; };
+		46B3D5AF1792344300F87266 /* NSString+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QueryString.m"; sourceTree = "<group>"; };
+		46B3D5B417923BF800F87266 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		46B3D5B517923BF800F87266 /* TDOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOAuth.h; sourceTree = "<group>"; };
+		46B3D5B617923BF800F87266 /* TDOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
+		46B3D5BA17923C0E00F87266 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		46B3D5BB17923C0E00F87266 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		46B3D5BC17923C0E00F87266 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		46B3D5BD17923C0E00F87266 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		46B3D5C217923C0E00F87266 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		46B3D5C317923C0E00F87266 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		46B3D5C417923C0E00F87266 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		46B3D5C717923C0E00F87266 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		46B3D5C817923C0E00F87266 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		46B3D5D717923C8C00F87266 /* KAOLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAOLoginViewController.h; sourceTree = "<group>"; };
+		46B3D5D817923C8C00F87266 /* KAOLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAOLoginViewController.m; sourceTree = "<group>"; };
+		46B3D5D917923C8C00F87266 /* KAOLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KAOLoginViewController.xib; sourceTree = "<group>"; };
+		46B3D5DC17923E5D00F87266 /* KAOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAOConstants.h; sourceTree = "<group>"; };
+		46B3D5DF17923ED100F87266 /* TDOAuth+KAOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TDOAuth+KAOAuth.h"; sourceTree = "<group>"; };
+		46B3D5E017923ED100F87266 /* TDOAuth+KAOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TDOAuth+KAOAuth.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46B3D56C1791C68900F87266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B3D5751791C68900F87266 /* CoreGraphics.framework in Frameworks */,
+				46B3D5771791C68900F87266 /* UIKit.framework in Frameworks */,
+				46B3D5731791C68900F87266 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B3D58D1791C68A00F87266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B3D5921791C68A00F87266 /* XCTest.framework in Frameworks */,
+				46B3D5941791C68A00F87266 /* UIKit.framework in Frameworks */,
+				46B3D5931791C68A00F87266 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46B3D5661791C68900F87266 = {
+			isa = PBXGroup;
+			children = (
+				46B3D5781791C68900F87266 /* KhanAcademyOAuthExample */,
+				46B3D5971791C68A00F87266 /* KhanAcademyOAuthExampleTests */,
+				46B3D5711791C68900F87266 /* Frameworks */,
+				46B3D5701791C68900F87266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46B3D5701791C68900F87266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D56F1791C68900F87266 /* KhanAcademyOAuthExample.app */,
+				46B3D5901791C68A00F87266 /* KhanAcademyOAuthExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46B3D5711791C68900F87266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D5721791C68900F87266 /* Foundation.framework */,
+				46B3D5741791C68900F87266 /* CoreGraphics.framework */,
+				46B3D5761791C68900F87266 /* UIKit.framework */,
+				46B3D5911791C68A00F87266 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46B3D5781791C68900F87266 /* KhanAcademyOAuthExample */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D5D617923C5E00F87266 /* KAOAuth */,
+				46B3D5A71791C69500F87266 /* External */,
+				46B3D5811791C68A00F87266 /* SSAppDelegate.h */,
+				46B3D5821791C68A00F87266 /* SSAppDelegate.m */,
+				46B3D5841791C68A00F87266 /* Main.storyboard */,
+				46B3D5871791C68A00F87266 /* SSViewController.h */,
+				46B3D5881791C68A00F87266 /* SSViewController.m */,
+				46B3D58A1791C68A00F87266 /* Images.xcassets */,
+				46B3D5791791C68900F87266 /* Supporting Files */,
+			);
+			path = KhanAcademyOAuthExample;
+			sourceTree = "<group>";
+		};
+		46B3D5791791C68900F87266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D57A1791C68900F87266 /* KhanAcademyOAuthExample-Info.plist */,
+				46B3D57B1791C68900F87266 /* InfoPlist.strings */,
+				46B3D57E1791C68A00F87266 /* main.m */,
+				46B3D5801791C68A00F87266 /* KhanAcademyOAuthExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46B3D5971791C68A00F87266 /* KhanAcademyOAuthExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D59D1791C68A00F87266 /* KhanAcademyOAuthExampleTests.m */,
+				46B3D5981791C68A00F87266 /* Supporting Files */,
+			);
+			path = KhanAcademyOAuthExampleTests;
+			sourceTree = "<group>";
+		};
+		46B3D5981791C68A00F87266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D5991791C68A00F87266 /* KhanAcademyOAuthExampleTests-Info.plist */,
+				46B3D59A1791C68A00F87266 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46B3D5A71791C69500F87266 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D5B917923C0E00F87266 /* AFNetworking */,
+				46B3D5B317923BF800F87266 /* TDAuth */,
+				46B3D5AB179228CB00F87266 /* NSURL+QueryString.h */,
+				46B3D5AC179228CB00F87266 /* NSURL+QueryString.m */,
+				46B3D5AE1792344300F87266 /* NSString+QueryString.h */,
+				46B3D5AF1792344300F87266 /* NSString+QueryString.m */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		46B3D5B317923BF800F87266 /* TDAuth */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D5B417923BF800F87266 /* README */,
+				46B3D5B517923BF800F87266 /* TDOAuth.h */,
+				46B3D5B617923BF800F87266 /* TDOAuth.m */,
+			);
+			path = TDAuth;
+			sourceTree = "<group>";
+		};
+		46B3D5B917923C0E00F87266 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D5BA17923C0E00F87266 /* AFHTTPClient.h */,
+				46B3D5BB17923C0E00F87266 /* AFHTTPClient.m */,
+				46B3D5BC17923C0E00F87266 /* AFHTTPRequestOperation.h */,
+				46B3D5BD17923C0E00F87266 /* AFHTTPRequestOperation.m */,
+				46B3D5C217923C0E00F87266 /* AFNetworkActivityIndicatorManager.h */,
+				46B3D5C317923C0E00F87266 /* AFNetworkActivityIndicatorManager.m */,
+				46B3D5C417923C0E00F87266 /* AFNetworking.h */,
+				46B3D5C717923C0E00F87266 /* AFURLConnectionOperation.h */,
+				46B3D5C817923C0E00F87266 /* AFURLConnectionOperation.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		46B3D5D617923C5E00F87266 /* KAOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				46B3D5D717923C8C00F87266 /* KAOLoginViewController.h */,
+				46B3D5D817923C8C00F87266 /* KAOLoginViewController.m */,
+				46B3D5D917923C8C00F87266 /* KAOLoginViewController.xib */,
+				46B3D5DC17923E5D00F87266 /* KAOConstants.h */,
+				46B3D5DF17923ED100F87266 /* TDOAuth+KAOAuth.h */,
+				46B3D5E017923ED100F87266 /* TDOAuth+KAOAuth.m */,
+			);
+			path = KAOAuth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46B3D56E1791C68900F87266 /* KhanAcademyOAuthExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B3D5A11791C68A00F87266 /* Build configuration list for PBXNativeTarget "KhanAcademyOAuthExample" */;
+			buildPhases = (
+				46B3D56B1791C68900F87266 /* Sources */,
+				46B3D56C1791C68900F87266 /* Frameworks */,
+				46B3D56D1791C68900F87266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KhanAcademyOAuthExample;
+			productName = KhanAcademyOAuthExample;
+			productReference = 46B3D56F1791C68900F87266 /* KhanAcademyOAuthExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46B3D58F1791C68A00F87266 /* KhanAcademyOAuthExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B3D5A41791C68A00F87266 /* Build configuration list for PBXNativeTarget "KhanAcademyOAuthExampleTests" */;
+			buildPhases = (
+				46B3D58C1791C68A00F87266 /* Sources */,
+				46B3D58D1791C68A00F87266 /* Frameworks */,
+				46B3D58E1791C68A00F87266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B3D5961791C68A00F87266 /* PBXTargetDependency */,
+			);
+			name = KhanAcademyOAuthExampleTests;
+			productName = KhanAcademyOAuthExampleTests;
+			productReference = 46B3D5901791C68A00F87266 /* KhanAcademyOAuthExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46B3D5671791C68900F87266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Saqib Saud";
+				TargetAttributes = {
+					46B3D58F1791C68A00F87266 = {
+						TestTargetID = 46B3D56E1791C68900F87266;
+					};
+				};
+			};
+			buildConfigurationList = 46B3D56A1791C68900F87266 /* Build configuration list for PBXProject "KhanAcademyOAuthExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46B3D5661791C68900F87266;
+			productRefGroup = 46B3D5701791C68900F87266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46B3D56E1791C68900F87266 /* KhanAcademyOAuthExample */,
+				46B3D58F1791C68A00F87266 /* KhanAcademyOAuthExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46B3D56D1791C68900F87266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B3D5B717923BF800F87266 /* README in Resources */,
+				46B3D58B1791C68A00F87266 /* Images.xcassets in Resources */,
+				46B3D57D1791C68A00F87266 /* InfoPlist.strings in Resources */,
+				46B3D5861791C68A00F87266 /* Main.storyboard in Resources */,
+				46B3D5DB17923C8C00F87266 /* KAOLoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B3D58E1791C68A00F87266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B3D59C1791C68A00F87266 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46B3D56B1791C68900F87266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B3D5D317923C0E00F87266 /* AFURLConnectionOperation.m in Sources */,
+				46B3D5891791C68A00F87266 /* SSViewController.m in Sources */,
+				46B3D5B817923BF800F87266 /* TDOAuth.m in Sources */,
+				46B3D5AD179228CB00F87266 /* NSURL+QueryString.m in Sources */,
+				46B3D5DA17923C8C00F87266 /* KAOLoginViewController.m in Sources */,
+				46B3D5831791C68A00F87266 /* SSAppDelegate.m in Sources */,
+				46B3D5D117923C0E00F87266 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				46B3D5E117923ED100F87266 /* TDOAuth+KAOAuth.m in Sources */,
+				46B3D5CE17923C0E00F87266 /* AFHTTPRequestOperation.m in Sources */,
+				46B3D57F1791C68A00F87266 /* main.m in Sources */,
+				46B3D5CD17923C0E00F87266 /* AFHTTPClient.m in Sources */,
+				46B3D5B01792344300F87266 /* NSString+QueryString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B3D58C1791C68A00F87266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B3D59E1791C68A00F87266 /* KhanAcademyOAuthExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46B3D5961791C68A00F87266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46B3D56E1791C68900F87266 /* KhanAcademyOAuthExample */;
+			targetProxy = 46B3D5951791C68A00F87266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46B3D57B1791C68900F87266 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B3D57C1791C68900F87266 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		46B3D5841791C68A00F87266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B3D5851791C68A00F87266 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46B3D59A1791C68A00F87266 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46B3D59B1791C68A00F87266 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46B3D59F1791C68A00F87266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46B3D5A01791C68A00F87266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46B3D5A21791C68A00F87266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhanAcademyOAuthExample/KhanAcademyOAuthExample-Prefix.pch";
+				INFOPLIST_FILE = "KhanAcademyOAuthExample/KhanAcademyOAuthExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		46B3D5A31791C68A00F87266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhanAcademyOAuthExample/KhanAcademyOAuthExample-Prefix.pch";
+				INFOPLIST_FILE = "KhanAcademyOAuthExample/KhanAcademyOAuthExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		46B3D5A51791C68A00F87266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KhanAcademyOAuthExample.app/KhanAcademyOAuthExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhanAcademyOAuthExample/KhanAcademyOAuthExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KhanAcademyOAuthExampleTests/KhanAcademyOAuthExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		46B3D5A61791C68A00F87266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KhanAcademyOAuthExample.app/KhanAcademyOAuthExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KhanAcademyOAuthExample/KhanAcademyOAuthExample-Prefix.pch";
+				INFOPLIST_FILE = "KhanAcademyOAuthExampleTests/KhanAcademyOAuthExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46B3D56A1791C68900F87266 /* Build configuration list for PBXProject "KhanAcademyOAuthExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B3D59F1791C68A00F87266 /* Debug */,
+				46B3D5A01791C68A00F87266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B3D5A11791C68A00F87266 /* Build configuration list for PBXNativeTarget "KhanAcademyOAuthExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B3D5A21791C68A00F87266 /* Debug */,
+				46B3D5A31791C68A00F87266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B3D5A41791C68A00F87266 /* Build configuration list for PBXNativeTarget "KhanAcademyOAuthExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B3D5A51791C68A00F87266 /* Debug */,
+				46B3D5A61791C68A00F87266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46B3D5671791C68900F87266 /* Project object */;
+}
